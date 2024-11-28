@@ -1,0 +1,131 @@
+body { background-image: url(imagenes/fondo8.jpg);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      
+      @media (max-width: 768px) {
+        .container {
+          width: 90%;
+        }
+      }
+}
+
+header {
+    
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+}
+.n{
+    background-image: url(imagenes/Fondo2.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.m{
+    background-image: url(imagenes/fondo9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.a{
+    background-image: url(imagenes/fondo9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.tabla1{    
+    color: #ccc;
+}
+.tabla2{
+    color:#412307;
+}
+.musica:hover{
+    display: 15px;;
+    padding: 15px;
+    background: #B76717;
+}
+.juegos:hover{
+    display: 15px;
+    padding: 15px;
+    background: #707a0a;
+}
+.contactos:hover{
+    display: 15px;
+    padding: 15px;
+    background-color: #746b6bcd;
+}
+.h2{
+    color: #412307;
+}
+.h21{
+    color: #ccc;
+}
+.titulo{
+    color: hsl(0, 90%, 36%);
+}
+   /* Estilo opcional para el botón */
+   .boton-compras {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+}
+.boton-compras img {
+    vertical-align: middle; /* Alineación vertical de la imagen */
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+}
